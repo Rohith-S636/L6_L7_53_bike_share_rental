@@ -2,12 +2,14 @@
 # Lab 7: Fuzzing for Input Validation Bugs
 
 ## About
+
 A small Python module that reads bike share rental details typed in by a user: ride durations, station codes and ride log lines. It assumes every input is well formed.
 
 ## Objective
+
 Use property-based fuzz testing with the `Hypothesis` library to uncover edge-case input crashes in `bike_share_rental_parser.py` and harden all parsing functions using defensive programming.
 
-## Files
+## Files Given
 
 | File | Description |
 |------|-------------|
